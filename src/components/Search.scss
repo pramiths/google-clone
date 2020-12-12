@@ -1,0 +1,18 @@
+.search__input {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  height: 30px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  width: 75vw;
+  margin-top: 40px;
+  max-width: 560px;
+  > input {
+    flex: 1 0 auto;
+    padding: 10px 20px;
+    font-size: medium;
+    border: none;
+    height: 100%;
+  }
+}
